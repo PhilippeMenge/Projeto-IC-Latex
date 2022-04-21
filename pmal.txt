@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[style=numeric]{biblatex}
+\usepackage[brazil]{babel}
+\usepackage{url}
+\addbibresource{pmal.bib}
+ 
+ 
+\title{IF677 - INFRA-ESTRUTURA DE SOFTWARE}
+\author{Philippe Menge de Abreu e Lima}
+\date{April, 2021}
+ 
+\begin{document}
+ 
+\maketitle
+ 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=90mm]{imagem_software.png}
+    \caption{Ilustração sobre software}
+    \label{fig:infra-estrutura de software}
+    \cite{ilustração}
+\end{figure}
+ 
+\section{Introdução}
+\par 
+Infra-estrutura de \textit{software}, que tem como código: IF674, faz parte de uma trinca de cadeiras consideradas a base para a construção de qualquer sistema de computação atual, que além dela tem infra-estrutura de \textit{hardware} e infra-estrutura de comunicação. A disciplina tem como objetivo apresentar conceitos e sistemas de \textit{softwares} básicos de um computador. Além disso,a cadeira oferece 45 horas de carga horária teórica e 30 horas de carga horária prática e é ministrada pelos professores Carlos Ferraz (no curso de ciência da computação e Eduardo Tavares (no curso de engenharia da computação).
+ \cite{CinWiki}
+ \cite{ementa}
+ 
+ 
+\section{Conceitos Relacionados}
+\par
+A disciplina ensina conceitos imprescindíveis para o graduando em ciência da computação, tais como: introdução ao funcionamento de um \textit{software}, estrutura de um sistema operacional, escalonamento, gerenciamento de memória, memória virtual, gerenciamento de disco, sistema de arquivo, proteção e segurança e sistemas distribuídos. Além de propor e aprofundar-se em estudos de caso sobre cada conceito. 
+\cite{ementa}
+\cite{HPE}
+ 
+ 
+\section{Funcionamento e Objetivos}
+\par
+A disciplina é dividida em dois módulos: sistemas operacionais e sistemas distribuídos. O primeiro aprofunda tópicos como: processos, escalonamento, memória virtual e dispositivos de entrada/saída. Já o segundo tópico discorre sobre: concorrência entre \textit{softwares}, sistemas distribuídos e \textit{middleware}. A matéria tem como objetivo final fazer com que os discentes entendam o funcionamento dos sistemas de \textit{software} e, junto com as outras duas cadeiras que fazem parte da trinca de infra-estrutura, fazer com que o aluno tenha um panorama completo sobre o funcionamento de um sistema computacional.
+\cite{CinWiki}
+ 
+\printbibliography
+ 
+\end{document}
